@@ -1,0 +1,53 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+
+h1 {
+    color: hotpink;
+}
+
+h2 {
+    color: yellow;
+}
+
+
+
+/* Example 1 : Simple Bar Chart */
+.row {
+    display: flex;
+    align-items: stretch;
+    height: 60px;
+}
+
+.row .label {
+    flex: 0 0 auto;
+}
+
+.row .container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row .dish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pasta {
+    background-color: teal;
+}
+
+.pizza {
+    background-color: salmon;
+}
+
+.burrito {
+    background-color: yellowgreen;
+}
+
+/* Example 2 TBD */
